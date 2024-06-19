@@ -2,7 +2,7 @@
 
 import axios from "axios";
 
-const backendBaseUrl = "http://localhost:5000";
+const backendBaseUrl = "https://pharmacy-management-system-2.onrender.com";
 
 const getToken = () => {
   const token = localStorage.getItem("token");
